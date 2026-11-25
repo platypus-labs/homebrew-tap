@@ -1,9 +1,9 @@
 cask "platypusdb" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.6.12"
-  sha256 arm:   "3d02067e6104643a33fb99ddcc082d28d7ac7b42cfb7dd7564f9a5dbba0fc3ec",
-         intel: "2cd6e728bb2f385c4d97ae73df847985051d8683717c7396c3d0e1cbbb98b822"
+  version "0.6.13"
+  sha256 arm:   "7dd3a9faa6d79db5c728123f1c510a09b66b1bbdd941bf920b87af0dd0585363",
+         intel: "b7754a8b0ae1c5df802820b5e6d3ea6aef0db026a623ea270fdd4201c9574ecc"
 
   url "https://github.com/platypus-labs/platypus-db/releases/download/v#{version}/PlatypusDB_#{version}_#{arch}.dmg"
   name "PlatypusDB"
